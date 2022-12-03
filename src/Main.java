@@ -11,6 +11,8 @@ public class Main {
 		ArrayList<String> giftees = new ArrayList<String>();
 		Random rand = new Random();
 
+		System.out.println("Welcome to the gift exchange application!");
+
 		System.out.println("Please input the participant's name: ");
 		name = scanner.nextLine();
 
@@ -31,6 +33,6 @@ public class Main {
 			gifters.remove(gifter);
 			giftees.remove(giftee);
 		}
-		System.out.println("\nMerry Christmas!!!");
+		System.out.println("\nMerry Christmas!");
 	}
 }
